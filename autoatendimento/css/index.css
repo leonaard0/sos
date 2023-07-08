@@ -23,9 +23,10 @@ footer {
 }
 
 input {
-    height: fit-content;
+    /* height: fit-content;
     max-width:max-content;
-    min-width: 300px;
+    min-width: min-content;
+    width: 300px; */
     border: 1px solid lightgrey;
     border-radius: 7px;
     box-shadow: 0.1em 0.0em 1em lightgrey;
@@ -65,10 +66,9 @@ main {
     align-items: center;
 }
 
-/* .img1 {
-    position: static;
-    padding-left: 220px;
-} */
+.img1 {
+    height: 80px;
+}
 
 .txt1 {
     padding-left: 30px;
