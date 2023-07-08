@@ -23,10 +23,7 @@ footer {
 }
 
 input {
-    /* height: fit-content;
-    max-width:max-content;
-    min-width: min-content;
-    width: 300px; */
+    width: auto;
     border: 1px solid lightgrey;
     border-radius: 7px;
     box-shadow: 0.1em 0.0em 1em lightgrey;
@@ -46,7 +43,7 @@ input:focus {
     border: 1px rgb(0, 174, 255);
     border-radius: 7px;
 
-    width: 200px;
+    min-width: 200px;
 
     height: fit-content;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
